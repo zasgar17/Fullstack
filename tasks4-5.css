@@ -1,0 +1,127 @@
+.first_class{
+    color:green;
+}
+
+span:hover {
+    color: orange;
+}
+
+.half-transparent {
+    background-color: blue; 
+    opacity: 0.5;
+    color: white;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+}
+
+.gradient-background {
+    background: linear-gradient(to right, blue, purple);
+    color: white; 
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.hover:hover{
+    color: pink;
+}
+
+.transparent-box {
+    background-color: rgba(192, 251, 255, 0.5); 
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.custom-spacing {
+    margin-top: 20px;       /* Top margin */
+    margin-right: 30px;     /* Right margin */
+    margin-bottom: 40px;    /* Bottom margin */
+    margin-left: 10px;      /* Left margin */
+
+    padding-top: 10px;      /* Top padding */
+    padding-right: 15px;    /* Right padding */
+    padding-bottom: 25px;   /* Bottom padding */
+    padding-left: 5px;      /* Left padding */
+}
+
+.custom-hover {
+    margin-top: 20px;
+    padding-bottom: 15px;
+    background-color: lightblue;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    transition: margin-top 0.3s ease, padding-bottom 0.3s ease; 
+}
+
+.custom-hover:hover {
+    margin-top: 50px; 
+    padding-bottom: 30px;
+}
+
+.box {
+    width: 300px;
+    height: 200px;
+    padding: 20px; 
+    box-sizing: border-box;  
+    background-color: lightblue;
+    text-align: center;
+    border: 2px solid #000;
+}
+
+.buttom-red {
+    border: 2px solid black; 
+    padding: 20px;
+    text-align: center;
+    transition: border 0.3s ease;
+}
+
+.buttom-red:hover {
+    border: 2px dotted red; 
+}
+
+.box-shadow {
+    width: 200px;
+    height: 100px;
+    background-color: lightblue;
+    text-align: center;
+    line-height: 100px;
+    transition: box-shadow 0.3s ease; /* Smooth transition for shadow */
+}
+
+.box-shadow:hover {
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+}
+
+.color-trans {
+    width: 200px;
+    height: 100px;
+    background-color: lightblue;
+    text-align: center;
+    line-height: 100px;
+    transition: background-color 0.5s ease; 
+}
+
+.color-trans:hover {
+    background-color: coral; 
+}
+
+.custom-heading {
+    background-color: green;
+    color: white;          
+    margin: 15px;            
+}
+
+.blue-background {
+    background-color: blue; 
+    color: white;           
+    padding: 20px;           
+}
+
+.gray-background {
+    background-color: gray; 
+    color: white;           
+    padding: 20px;           
+}
