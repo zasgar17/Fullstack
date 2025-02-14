@@ -29,7 +29,7 @@ header .logo h1 {
 
 nav ul {
     list-style-type: none;
-    margin-left: 200;
+    margin-left: 200px;
     padding: 0;
     display: flex;
 }
@@ -206,4 +206,65 @@ nav ul li a:hover {
     background-color: #1ABC9C; 
     opacity: 0.7; 
     transform: scale(1.1); 
+}
+
+.contact-section h2{
+    font-family: 'Offside', serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #2C3E50;
+    font-size: 30px;
+    margin-top: 80px;
+}
+
+.divider-3 {
+    width: 170px;
+    height: 2px;
+    background-color: #2C3E50;
+    margin: 10px auto;
+}
+
+.required p{
+    font-family: 'Offside', serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 50px;
+    margin-left: 370px;
+}
+
+.divider-4 {
+    width: 1000px;
+    height: 0.5px;
+    background-color: #2C3E50;
+    margin: 10px auto;
+    margin-top: 30px;
+}
+
+.divider-5 {
+    width: 1000px;
+    height: 0.5px;
+    background-color: #2C3E50;
+    margin: 10px auto;
+    margin-top: 90px;
+    margin-bottom: 50px;
+}
+
+.required p:hover {
+    text-decoration: underline;
+}
+
+.send-bttn{
+    font-family: 'Offside', serif;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 18px;
+    color: white; 
+    background-color: #26bb9d;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-left: 370px;
+    margin-top: 100px;
 }
