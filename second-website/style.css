@@ -1,0 +1,365 @@
+.offside-regular {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+body {
+    font-family: "Lato", sans-serif;
+    margin: 0;
+}
+
+header {
+    font-family: "Lato", sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: white;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: lighter;
+    margin-left: 50px;
+}
+
+.signup-btn {
+    font-family: "Lato", sans-serif;
+    padding: 15px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background 0.3s ease;
+    margin-right: 40px;
+}
+
+.signup-btn:hover {
+    background-color: #0056b3;
+}
+
+.signup-btn:active {
+    background-color: #003f7f;
+}
+
+.hero {
+    font-family: "Lato", sans-serif;
+    position: relative;
+    height: 90vh;
+    background: url('https://therichpost.com/wp-content/uploads/2021/04/bg-masthead.jpg') center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.hero .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 50, 0.204);
+}
+
+.hero .content {
+    position: relative;
+    z-index: 1;
+    max-width: 600px;
+}
+
+.hero h1 {
+    font-family: "Lato", sans-serif;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    font-family: "Lato", sans-serif;
+    padding: 10px;
+    width: 300px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+}
+
+button {
+    font-family: "Lato", sans-serif;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+button:active {
+    background-color: #003f7f;
+}
+
+.features {
+    font-family: "Lato", sans-serif;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    padding: 60px 20px;
+    background-color: #f0efef;
+}
+
+.row {
+    max-width: 1200px;
+    margin: auto;
+    display: flex; 
+    justify-content: space-between; 
+    flex-wrap: wrap;
+}
+
+.feature-box {
+    max-width: 350px; 
+    text-align: center; 
+    padding: 20px;
+}
+
+.icon {
+    font-size: 70px;
+    color: #007bff;
+    margin-bottom: 15px;
+}
+
+.responsive-section {
+    background-color: #f8f9fa;
+}
+
+.container {
+    font-family: "Lato", sans-serif;
+    max-width: 1200px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.row-2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.text-box {
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+    max-width: 50%;
+    padding-right: 20px;
+}
+
+.text-box h2 {
+    font-family: "Lato", sans-serif;
+    font-size: 35px;
+    color: #333;
+    margin-left: 100px;
+}
+
+.text-box p {
+    font-family: "Lato", sans-serif;
+    font-size: 20px;
+    color: #666;
+    line-height: 1.6;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.image-box {
+    flex: 1;
+    max-width: 50%;
+}
+
+.image-box img {
+    width: 100%;
+    height: auto;
+}
+
+.row-3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row-reverse; 
+}
+
+.text-box-3 {
+    flex: 1;
+    max-width: 50%;
+    padding-left: 20px;
+}
+
+.text-box-3 h2 {
+    font-family: "Lato", sans-serif;
+    font-size: 35px;
+    color: #333;
+    margin-left: 100px;
+}
+
+.text-box-3 p {
+    font-family: "Lato", sans-serif;
+    font-size: 20px;
+    color: #666;
+    line-height: 1.6;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.image-box-3 {
+    flex: 1;
+    max-width: 50%;
+}
+
+.customers {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #f8f9fa;
+    font-family: "Lato", sans-serif;
+}
+
+.customer-container {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    flex-wrap: wrap;
+}
+
+.customer {
+    max-width: 300px;
+    text-align: center;
+}
+
+.customer img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.customer h3 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.customer p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.6;
+}
+
+.hero-2 {
+    font-family: "Lato", sans-serif;
+    position: relative;
+    height: 50vh;
+    background: url('https://therichpost.com/wp-content/uploads/2021/04/bg-masthead.jpg') center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.hero-2 .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 50, 0.204);
+}
+
+.hero-2 .content {
+    position: relative;
+    z-index: 1;
+    max-width: 600px;
+}
+
+.hero-2 h1 {
+    font-family: "Lato", sans-serif;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    font-family: "Lato", sans-serif;
+    padding: 10px;
+    width: 300px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+}
+
+button {
+    font-family: "Lato", sans-serif;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.footer {
+    background-color: #f8f9fa;
+    padding: 20px;
+    font-family: "Lato", sans-serif;
+}
+
+.footer-links {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    color: #007bff;
+    margin: 0 10px;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+.footer-links a:hover {
+    color: #0056b3;
+}
+
+.footer p {
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    color: #007bff;
+    font-size: 20px;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #0056b3;
+}
